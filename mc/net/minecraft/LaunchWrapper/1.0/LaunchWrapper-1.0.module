@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.minecraft",
+    "module": "LaunchWrapper",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "LaunchWrapper-1.0.jar",
+          "url": "LaunchWrapper-1.0.jar",
+          "size": 18372,
+          "sha512": "33c367c26bbcbd987734a1950b61e634d1f2abcc0c2b13ace9e25b0b552c94355ae6eb379ce9629d30e669385f76580373abae1e52d773fb16b05569f296399c",
+          "sha256": "1dfc7423984f74090e1ebef2c94d48f9c351ccc6859e207f0461aaa2776541f9",
+          "sha1": "7dd09700ae03b19cc6f00332740e81169f090c33",
+          "md5": "8fa1d209e9631b6d342e292db49dcb0c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.xbib.elasticsearch",
+          "module": "joptsimple",
+          "version": {
+            "requires": "6.3.2.1"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-core",
+          "version": {
+            "requires": "2.19.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "LaunchWrapper-1.0.jar",
+          "url": "LaunchWrapper-1.0.jar",
+          "size": 18372,
+          "sha512": "33c367c26bbcbd987734a1950b61e634d1f2abcc0c2b13ace9e25b0b552c94355ae6eb379ce9629d30e669385f76580373abae1e52d773fb16b05569f296399c",
+          "sha256": "1dfc7423984f74090e1ebef2c94d48f9c351ccc6859e207f0461aaa2776541f9",
+          "sha1": "7dd09700ae03b19cc6f00332740e81169f090c33",
+          "md5": "8fa1d209e9631b6d342e292db49dcb0c"
+        }
+      ]
+    }
+  ]
+}
